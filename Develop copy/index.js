@@ -1,105 +1,87 @@
 // TODO: Include packages needed for this application
 
-
-
-const inquirer = require('inquirer');
-const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
-
+const inquirer = require("inquirer");
+const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 
-
 inquirer
   .prompt([
-
-    //Project Title 
+    //Project Title
     {
-      type: 'input',
-      name: 'ProjectTitle',
-      message: 'Enter your project title',
+      type: "input",
+      name: "ProjectTitle",
+      message: "Enter your project title",
     },
 
     //Read me Description
     {
-      type: 'input',
-      name: 'Description',
-      message: 'Write a brief description of your project',
-     
+      type: "input",
+      name: "Description",
+      message: "Write a brief description of your project",
     },
-    //Installation instruction 
+    //Installation instruction
     {
-      type: 'input',
-      
-      name: 'Installation Instruction ',
-      message: 'Type in your installation instruction?',
-    
+      type: "input",
+
+      name: "Installation Instruction ",
+      message: "Type in your installation instruction?",
     },
-    // Usage information 
+    // Usage information
     {
-      type: 'input',
-      
-      name: 'Usage ',
-      message: 'Please write usage information ',
-    
+      type: "input",
+
+      name: "Usage ",
+      message: "Please write usage information ",
     },
 
     //Input
     {
-      type: 'input',
-      
-      name: 'Contribution Guidelines ',
-      message: 'Please write Contribution Guidelines ',
-    
+      type: "input",
+
+      name: "Contribution Guidelines ",
+      message: "Please write Contribution Guidelines ",
     },
     {
-      type: 'input',
-      
-      name: 'Test instruction  ',
-      message: 'Are there any test instruction ? ',
-    
+      type: "input",
+
+      name: "Test instruction  ",
+      message: "Are there any test instruction ? ",
     },
     {
-      type: 'list',
-      name: 'Application License  ',
-      message: 'Choose your Licence ',
-      choices :['License 1', 'License 2','License 3']
-    ho
+      type: "list",
+      name: "Application License  ",
+      message: "Choose your Licence ",
+      choices: [
+        "GW AGPLv3",
+        "GW GPLv3",
+        "Mozilla Public Licences 3.0",
+        "Apache License 3.2",
+      ],
     },
     {
-type:"input",
-name :"questions",
-message: "Enter your github username.",
-
+      type: "input",
+      name: "questions",
+      message: "Enter your github username.",
     },
-    
+
     {
-    
-    type : "input",
-    name: "LinkedIn",
-    message: 'Enter your LinedIn URL.',
-
-
+      type: "input",
+      name: "LinkedIn",
+      message: "Enter your LinkedIn URL.",
     },
-    
+
     {
-    type : "input",
-    name: "Email",
-    message: 'Enter your Email Address',
-
-
+      type: "input",
+      name: "Email",
+      message: "Enter your Email Address",
     },
-
   ])
   .then((data) => {
+    fs.writeFile("HWREADME.md", JSON.stringify(data, null, "\t"), (err) =>
+      err ? console.log(err) : console.log("Success!")
+    );
 
-    
-    
-    fs.writeFile("HWREADME.md",JSON.stringify(data, null, '\t'), (err) =>
-    err ? console.log(err) : console.log('Success!')
-  );
- 
-console.log ("success");
-
-
+    console.log("success");
   });

@@ -1,12 +1,12 @@
 {
-	"ProjectTitle": "jfldfaljf",
-	"Description": "fdflafldj",
-	"Installation Instruction ": "fjdlfjlafj",
-	"Usage ": "fjdlfjalfj",
-	"Contribution Guidelines ": "fdlfjdlfj",
-	"Test instruction  ": "fldflaj",
-	"Application License  ": "ffjlsjf",
-	"questions": "flfj",
-	"LinkedIn": "fljf",
-	"Email": "fldjfld"
+	"ProjectTitle": "Reame Generator",
+	"Description": "this is a test run",
+	"Installation Instruction ": "no instruction as far",
+	"Usage ": "this can be use for generating read me",
+	"Contribution Guidelines ": "NA",
+	"Test instruction  ": "No isnstruction as of now",
+	"Application License  ": "GW AGPLv3",
+	"questions": "djfdjfd",
+	"LinkedIn": "dkjfldfjl",
+	"Email": "meni@gjafiodj"
 }
