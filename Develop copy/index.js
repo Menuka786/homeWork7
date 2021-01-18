@@ -60,11 +60,11 @@ inquirer
     
     },
     {
-      type: 'input',
+      type: 'list',
       name: 'Application License  ',
       message: 'Choose your Licence ',
       choices :['License 1', 'License 2','License 3']
-    
+    ho
     },
     {
 type:"input",
@@ -95,7 +95,9 @@ message: "Enter your github username.",
 
     
     
-    fs.writeFile("HWREADME.md", generateMarkdown(data));
+    fs.writeFile("HWREADME.md",JSON.stringify(data, null, '\t'), (err) =>
+    err ? console.log(err) : console.log('Success!')
+  );
  
 console.log ("success");
 
