@@ -1,5 +1,5 @@
 # homeWork7
-README.nd Genertor 
+README.nd Generator 
 
 Description
 
@@ -12,7 +12,7 @@ Table of content
 
 Installation
 
-Steps required to install prouject and how to get the development environment running:
+Steps required to install product and how to get the development environment running:
 
 To generate your own README, firs run npm install in order to install the following npm package dependencies as specified in the package.jason :
 
@@ -23,6 +23,7 @@ This application cn be invoked with node index.js
 Usage  / video
 
 Instructions and video for use:
+https://www.awesomescreenshot.com/video/2455486?key=5959daf1df3f65acb173a034623e0312
 
 
 

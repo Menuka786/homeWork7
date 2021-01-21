@@ -36,19 +36,21 @@ inquirer
       message: "Please write usage information ",
     },
 
-    //Input
+    //Input contribution Guidelines
     {
       type: "input",
 
       name: "Contribution Guidelines ",
       message: "Please write Contribution Guidelines ",
     },
+    //Input Test Instruction
     {
       type: "input",
 
       name: "Test instruction  ",
       message: "Are there any test instruction ? ",
     },
+    //Input Application License
     {
       type: "list",
       name: "Application License  ",
@@ -59,29 +61,32 @@ inquirer
         "Mozilla Public Licences 3.0",
         "Apache License 3.2",
       ],
+
+      //Input github username
     },
     {
       type: "input",
       name: "questions",
       message: "Enter your github username.",
     },
-
+//input linkedin link
     {
       type: "input",
       name: "LinkedIn",
       message: "Enter your LinkedIn URL.",
     },
-
+//input email address
     {
       type: "input",
       name: "Email",
       message: "Enter your Email Address",
     },
+    //this function will generate readme file.
   ])
   .then((data) => {
     fs.writeFile("HWREADME.md", JSON.stringify(data, null, "\t"), (err) =>
       err ? console.log(err) : console.log("Success!")
     );
 
-    console.log("success");
+   
   });

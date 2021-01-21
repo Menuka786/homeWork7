@@ -1,12 +1,12 @@
 {
-	"ProjectTitle": "Reame Generator",
-	"Description": "this is a test run",
-	"Installation Instruction ": "no instruction as far",
-	"Usage ": "this can be use for generating read me",
+	"ProjectTitle": "Readme generator",
+	"Description": "This is a readme generator",
+	"Installation Instruction ": "Run npm i and inded.js after cloning repo from github.",
+	"Usage ": "This application is used to Generate Read me file for your project",
 	"Contribution Guidelines ": "NA",
-	"Test instruction  ": "No isnstruction as of now",
+	"Test instruction  ": "No instruction ",
 	"Application License  ": "GW AGPLv3",
-	"questions": "djfdjfd",
-	"LinkedIn": "dkjfldfjl",
-	"Email": "meni@gjafiodj"
+	"questions": "test@github",
+	"LinkedIn": "https://test@linkdin.com",
+	"Email": "test@gmail.com"
 }
