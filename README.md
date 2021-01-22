@@ -23,7 +23,7 @@ This application cn be invoked with node index.js
 Usage  / video
 
 Instructions and video for use:
-https://www.youtube.com/watch?v=zI9q6VgqHmo&feature=youtu.be
+https://drive.google.com/file/d/1xx6rcT8mPnMiKsqHkJK_jRLJs_xin8pV/view?usp=sharing
 
 
 
