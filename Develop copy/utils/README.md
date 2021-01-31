@@ -1,9 +1,9 @@
-# fdfjalf
+# Read me generator
 
  * [License](#license)
 
 ## Description
-dfjdlfdlf
+This app will generate readme file for your application.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -16,22 +16,22 @@ dfjdlfdlf
 ## Installation
 To install necessary dependencies, run the following command:
 ```
-lfjldfldf
+npm i
 ```
 ## Usage
-lfjldfjalfj
+Copy the repo and run your index.js in terminal, answers the question.
 ## License
       
-  This project is licensed under the MIT license.
+  This project is licensed under the APACHE 5.0 license.
 ## Contributing
-fdfldjf
+Feel free to send me email if you have any contribution.
 ## Tests
 To run tests, run the following command:
 ```
-kfdkfljdfl
+None as of now
 ```
 ## License
 undefined
 ## Questions
-If you have any questions contact me directly at fkjdlfal. 
-You can find more of my work at [fldfadfjl](http://github.com/fldfadfjl/).
+If you have any questions contact me directly at menukaingingd@gmail.com. 
+You can find more of my work at [Menuka786](http://github.com/Menuka786/).

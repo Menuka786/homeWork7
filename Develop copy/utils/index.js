@@ -1,21 +1,24 @@
 // TODO: Include packages needed for this application
 
-const inquirer = require('inquirer');
+const inquirer = require ('inquirer');
+
 const fs = require('fs');
-const path =require('path')
-const generateMarkdown = require('./generateMarkdown')
+
+const path = require ('path');
+
+const generateMarkdown = require('./generateMarkdown');
 
 const questions = [
   
     {
       type: 'input',
       name: 'title',
-      message: 'What is your project name?',
+      message: 'Write your project name?',
     },
     {
       type: 'input',
       name: 'description',
-      message: 'Please write a short description of your project',
+      message: 'Write short discription of your project',
       
     },
     {
@@ -47,7 +50,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'What is your GitHub username?',    
+        message: 'What is your GitHub Username?',    
     },
     {
         type: 'input',
